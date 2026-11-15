@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portfolio and academic manager of Valentine Emmanuel Ojochegbe">
+<title>Academic Planner | Valentine Emmanuel Ojochegbe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">V.E. Ojochegbe</a>
+  <button id="menu-btn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  <nav><ul id="nav-list"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="farm4us.html">Farm4us</a></li><li><a href="planner.html" class="active" aria-current="page">Planner</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+</header>
+<main>
+<section class="container narrow">
+  <h1>Academic Planner</h1>
+  <p>Add your tasks, tick them off when done, or delete them. Tasks are saved in your browser.</p>
+  <div class="planner-form">
+    <input type="text" id="task-input" placeholder="e.g. Finish COS 106 project" aria-label="New task">
+    <button id="add-btn" class="btn">Add Task</button>
+  </div>
+  <p id="task-error" class="error" role="alert"></p>
+  <p id="task-count" class="muted"></p>
+  <ul id="task-list" class="tasks"></ul>
+</section>
+</main>
+<footer class="site-footer"><p>&copy; 2026 Valentine Emmanuel Ojochegbe &middot; COS 106 Term Project, MIVA Open University</p></footer>
+<script src="script.js"></script>
+</body>
+</html>

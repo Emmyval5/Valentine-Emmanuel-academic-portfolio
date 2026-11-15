@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Portfolio and academic manager of Valentine Emmanuel Ojochegbe">
+<title>Contact | Valentine Emmanuel Ojochegbe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">V.E. Ojochegbe</a>
+  <button id="menu-btn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+  <nav><ul id="nav-list"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="projects.html">Projects</a></li><li><a href="farm4us.html">Farm4us</a></li><li><a href="planner.html">Planner</a></li><li><a href="contact.html" class="active" aria-current="page">Contact</a></li></ul></nav>
+</header>
+<main>
+<section class="container narrow">
+  <h1>Contact Me</h1>
+  <p>Email: <a href="mailto:emmyval15ag1208@gmail.com">emmyval15ag1208@gmail.com</a><br>Phone: +27810626693<br>Pietermaritzburg, South Africa</p>
+  <form id="contact-form" novalidate>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name">
+    <span class="error" id="name-err"></span>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email">
+    <span class="error" id="email-err"></span>
+    <label for="phone">Phone Number</label>
+    <input type="text" id="phone" name="phone" inputmode="numeric">
+    <span class="error" id="phone-err"></span>
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5"></textarea>
+    <span class="error" id="message-err"></span>
+    <button type="submit" class="btn">Send Message</button>
+    <p id="form-success" class="success" role="status"></p>
+  </form>
+</section>
+</main>
+<footer class="site-footer"><p>&copy; 2026 Valentine Emmanuel Ojochegbe &middot; COS 106 Term Project, MIVA Open University</p></footer>
+<script src="script.js"></script>
+</body>
+</html>
